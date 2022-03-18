@@ -7,10 +7,10 @@ spring:
       server:
         git:
           uri: https://github.com/alarcon-osorio/MicroServices2022.git
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
     security:
       user:
         name: root
-        password: S3cr3t
+        password: s3cr3t
